@@ -3,6 +3,7 @@ import HOUSE_IMAGE from "@/public/assets/house.png"
 import STAR_IMAGE from "@/public/assets/star.png"
 import React from "react"
 import Pill from "./Pill"
+import Button from '@/components/Button'
 
 
 const Card: React.FC = () => {
@@ -14,6 +15,11 @@ const Card: React.FC = () => {
         <Pill title="Top Villa" />
         <Pill title="Self CheckIn" />
         <Pill title="Free Reschedule" />
+      </div>
+      <div>
+        <Button title="Like" styles="text-sm rounded-sm" />
+        <Button title="Like" styles="text-base rounded-md" />
+        <Button title="Like" styles="text-lg rounded-full" />
       </div>
       <div className="flex items-center justify-between">
         <div>
